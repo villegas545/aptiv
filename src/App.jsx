@@ -1,135 +1,120 @@
 import React, { useEffect } from 'react'
-import { useCSVReader, usePapaParse, useCSVDownloader } from 'react-papaparse';
-const styles = {
-    csvReader: {
-        display: 'flex',
-        flexDirection: 'row',
-        marginBottom: 10,
-    },
-    browseFile: {
-        width: '20%',
-    },
-    acceptedFile: {
-        border: '1px solid #ccc',
-        height: 45,
-        lineHeight: 2.5,
-        paddingLeft: 10,
-        width: '80%',
-    },
-    remove: {
-        borderRadius: 0,
-        padding: '0 20px',
-    },
-    progressBarBackgroundColor: {
-        backgroundColor: 'red',
-    },
-};
-
-
+import { useCSVReader, useCSVDownloader } from 'react-papaparse';
+import terror from './terror.gif'
 function App() {
     const { CSVReader } = useCSVReader();
-    const { jsonToCSV } = usePapaParse();
     const { CSVDownloader, Type } = useCSVDownloader();
     const [data, setData] = React.useState([]);
     const [jsonData, setJsonData] = React.useState([]);
-    let results = {};
+    //crear referencia imgterror
+    const imgterror = React.useRef(null);
+    const [stateImgTerror, setStateImgTerror] = React.useState(false);
     useEffect(() => {
         let arreglo = []
         let validacion = false;
         data.forEach(item => {
             validacion = false;
-            arreglo.filter(element => {
-                if (element.some(elemento => elemento === item)) {
-                    console.log(true)
-                    validacion = true
-                }
-            })
-            if (!validacion) {
-                let filtrado = data.filter(columna => item[2] === columna[2] && item[3] === columna[3] && item[4] === columna[4]
-                    && item[5] === columna[5] && item[6] === columna[6] && item[7] === columna[7] && item[8] === columna[8])
-                arreglo.push(filtrado)
+            /*   arreglo.filter(element => {
+                  if (element.some(elemento => elemento === item)) {
+                      console.log(true)
+                      validacion = true
+                  }
+              }) */
+            validacion = arreglo.some(columna => item[2] === columna[2] && item[3] === columna[3] && item[4] === columna[4]
+                && item[5] === columna[5] && item[6] === columna[6] && item[7] === columna[7] && item[8] === columna[8])
+            if (validacion) {
+                arreglo.map(columna => {
+                    for (let i = 19; i < 254; i++) {
+                        if (item[i] === "Y") {
+                            columna[i] = 'Y'
+                        }
+                    }
+                    return columna;
+                })
+            } else {
+                arreglo.push(item)
             }
+            //if (!validacion) {
+            /*         let filtrado = data.find(columna => item[2] === columna[2] && item[3] === columna[3] && item[4] === columna[4]
+                        && item[5] === columna[5] && item[6] === columna[6] && item[7] === columna[7] && item[8] === columna[8]) */
+
+            //}
         })
         console.log(arreglo)
         setJsonData(arreglo)
+
+
     }, [data])
-    const handleJsonToCSV = () => {
-        const jsonData = `[
-      {
-          "Column 1": "1-1",
-          "Column 2": "1-2",
-          "Column 3": "1-3",
-          "Column 4": "1-4"
-      },
-      {
-          "Column 1": "2-1",
-          "Column 2": "2-2",
-          "Column 3": "2-3",
-          "Column 4": "2-4"
-      },
-      {
-          "Column 1": "3-1",
-          "Column 2": "3-2",
-          "Column 3": "3-3",
-          "Column 4": "3-4"
-      },
-      {
-          "Column 1": 4,
-          "Column 2": 5,
-          "Column 3": 6,
-          "Column 4": 7
-      }
-    ]`;
-        results = jsonToCSV(jsonData);
-        console.log('---------------------------');
-        console.log('Results:', results);
-        console.log('---------------------------');
-    };
     return (
         <div>
             <CSVReader
                 onUploadAccepted={(results) => {
-                    //console.log('---------------------------');
-                    //console.log(results);
                     setData(results.data);
-                    //  console.log('---------------------------');
+                    setStateImgTerror(true)
+                    setTimeout(() => {
+                        setStateImgTerror(false)
+                    }
+                        , 2000)
                 }}
             >
                 {({
                     getRootProps,
                     acceptedFile,
                     ProgressBar,
-                    getRemoveFileProps,
                 }) => (
                     <>
-                        <div style={styles.csvReader}>
-                            <button type='button' {...getRootProps()} style={styles.browseFile}>
+                        <div >
+                            <button type='button' {...getRootProps()} className="btn btn-primary btn-sm"
+                                style={{
+                                    width: '100%',
+                                    height: '50vh',
+                                }}
+                            >
                                 Browse file
                             </button>
-                            <div style={styles.acceptedFile}>
+                            <div >
                                 {acceptedFile && acceptedFile.name}
                             </div>
-                            <button {...getRemoveFileProps()} style={styles.remove}>
-                                Remove
-                            </button>
                         </div>
-                        <ProgressBar style={styles.progressBarBackgroundColor} />
+                        <ProgressBar />
                     </>
                 )}
             </CSVReader>
-            <button onClick={() => handleJsonToCSV()}>jsonToCSV</button>
+
             <CSVDownloader
+                style={{
+                    width: '100%',
+                    height: '40vh',
+                }}
+                className="btn btn-danger btn-sm"
                 type={Type.Button}
                 filename={'filename'}
                 bom={true}
                 config={{
-                    delimiter: ';',
+                    delimiter: ',',
                 }}
-                data={results}
+                data={jsonData}
             >
                 Download
             </CSVDownloader>
-        </div>
+            <div style={{ height: "10vh" }}> Creado, diseñado, manufacturado, desarrollado, programado, desplegado y demas chingaderas por..... Julio Villegas!!!!</div>
+
+
+            {stateImgTerror ?
+                <div ref={imgterror} style={{
+                    left: '0',
+                    top: '0',
+                    position: "absolute",
+                    width: "100%",
+                    height: "100%",
+                }}>
+                    <img src={terror} alt="terror" style={{
+                        width: "100%",
+                        height: "100%",
+                    }} />  </div>
+                : null}
+
+        </div >
     )
 }
 
