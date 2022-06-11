@@ -1,14 +1,14 @@
 13,    ,   24A ,24B,D25,H15  ,AC20 ,BK01 ,,,,,VC,/,BL,-,VC,/,BL,-,-,-,Y,Y,Y,Y
 14,    ,   24A ,24B,D25,H15  ,AC20 ,BK01 ,,,,,VC,/,BL,-,VC,/,BL,Y,Y,-,-,-,-,-
 15,    ,   24B ,24C,H15,H2   ,BK01 ,BH39 ,,,,,VC,/,BL,-,VC,/,BL,Y,Y,Y,Y,Y,Y,Y
-16,    ,   24E ,24B,D27,H15  ,BN15 ,BK01 ,,,,,VC,/,BL,-,VC,/,BL,Y,Y,Y,Y,Y,Y,Y
+16,    ,   24E ,24B,D27,H15  ,BN15 ,BK01 ,,,,,VC,/,BL,-,VC,/,BL,Y,-,Y,Y,Y,Y,Y
 17,    ,   28A ,28A,D30,C25  ,BN41 ,AG16 ,,,,,CF,/,BL,-,CF,/,BL,Y,Y,Y,Y,Y,Y,Y
 18,    ,   42A ,42A,185,F9   ,     ,BG41 ,,,,,RJ,/,AO,-,RJ,/,AO,-,Y,Y,Y,Y,Y,Y
-19,    ,   57A ,57A,D27,C25  ,BN05 ,AG44 ,,,,,AM,/,GR,-,AM,/,GR,Y,-,Y,Y,Y,Y,Y
-20,    ,  126A ,126A,J27,D30  ,AB02 ,BN48 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,-,Y,Y,Y,Y
+19,    ,   57A ,57A,D27,C25  ,BN05 ,AG44 ,,,,,AM,/,GR,-,AM,/,GR,Y,Y,Y,Y,Y,Y,Y
+20,    ,  126A ,126A,J27,D30  ,AB02 ,BN48 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
 21,    ,  157A ,157B,J27,B26  ,AB01 ,AE01 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
 22,    ,  157B ,157A,B26,J27  ,AE01 ,AB01 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
-23,    ,  157B ,157C,B26,G22  ,AE01 ,AR52 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,-,Y,Y,Y,Y
+23,    ,  157B ,157C,B26,G22  ,AE01 ,AR52 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
 24,    ,  157B ,157E,B26,H20  ,AE01 ,AN49 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
 25,    ,  157B ,157F,B26,B19  ,AE01 ,AK49 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
 26,    ,  157G ,157B,D30,B26  ,BN36 ,AE01 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
@@ -16,3 +16,656 @@
 28,    ,  193A ,193A,D30,F9   ,BN52 ,BG29 ,,,,,CF,/,MO,-,CF,/,MO,Y,Y,Y,Y,Y,Y,Y
 29,    ,  228A ,228A,H25,C25  ,AH11 ,AG15 ,,,,,GR,/,MO,-,GR,/,MO,Y,Y,Y,Y,Y,Y,Y
 30,    ,  238A ,238A,H20,F19  ,AN32 ,AJ43 ,,,,,NA,/,CF,-,NA,/,CF,Y,Y,Y,Y,Y,Y,Y
+31,    ,  293A ,293A,J15B,F9   ,BB09 ,BG39 ,,,,,CF,/,MO,-,CF,/,MO,Y,Y,Y,Y,Y,Y,Y
+32,    ,  342A ,342A,4,187,     ,     ,,,,,RJ,/,BL,-,RJ,/,BL,Y,Y,Y,Y,Y,Y,Y
+33,    ,  439A ,439A,J25,H25  ,AL51 ,AH01 ,,,,,MO,/,VC,-,MO,/,VC,Y,Y,Y,Y,Y,Y,Y
+34,    ,  465A ,465A,H25,G4   ,AH03 ,BP14 ,,,,,VC,/,GR,-,VC,/,GR,Y,Y,Y,Y,Y,Y,Y
+35,    ,  539A ,539C,D27,B19  ,BN17 ,AK21 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+36,    ,  539C ,539A,B19,D27  ,AK21 ,BN17 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+37,    ,  539E ,539C,C25,B19  ,AG45 ,AK21 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+38,    ,  539G ,539C,H20,B19  ,AN21 ,AK21 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+39,    ,  539H ,539C,J25,B19  ,AL23 ,AK21 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+40,    ,  614A ,614A,J27,H20  ,AB05 ,AN06 ,,,,,AO,/,VC,-,AO,/,VC,Y,Y,Y,Y,Y,Y,Y
+41,    ,  615A ,615A,J27,H20  ,AB17 ,AN05 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+42,    ,  737A ,737A,C30,C4   ,BM17 ,BR24 ,,,,,VC,/,GR,-,VC,/,GR,Y,Y,Y,Y,Y,Y,Y
+43,    ,  740A ,740A,B19,G11  ,AK29 ,AP40 ,,,,,RJ,/,AM,-,RJ,/,AM,Y,Y,Y,Y,Y,Y,Y
+44,    ,  820A ,820A,D27,C3   ,BN23 ,AP02 ,,,,,CF,/,AM,-,CF,/,AM,Y,Y,Y,Y,Y,Y,Y
+45,    ,  840A ,840A,B26,G11  ,AE20 ,AP28 ,,,,,RJ,/,AO,-,RJ,/,AO,Y,Y,Y,Y,Y,Y,Y
+46,    , 1099A ,1099A,G23,F6   ,AF16 ,BD23 ,,,,,NE,/,CF,-,NE,/,CF,Y,Y,Y,Y,Y,Y,Y
+47,    , 1100A ,1100A,G23,F6   ,AF17 ,BD24 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+48,    , 1103A ,1103A,K2,F6   ,BP44 ,BD27 ,,,,,AM,/,CF,-,AM,/,CF,Y,Y,Y,Y,Y,Y,Y
+49,    , 1105A ,1105A,C25,F6   ,AG36 ,BD39 ,,,,,NE,/,VC,-,NE,/,VC,Y,Y,Y,Y,Y,Y,Y
+50,    , 1106A ,1106A,C25,F6   ,AG37 ,BD40 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+51,    , 1107A ,1107A,G23,F6   ,AF33 ,BD15 ,,,,,CF,/,BL,-,CF,/,BL,Y,Y,Y,Y,Y,Y,Y
+52,    , 1108A ,1108A,K1,F6   ,BG04 ,BD44 ,,,,,NE,/,AO,-,NE,/,AO,Y,Y,Y,Y,Y,Y,Y
+53,    , 1109A ,1109A,K1,F6   ,BG05 ,BD43 ,,,,,AM,/,AO,-,AM,/,AO,Y,Y,Y,Y,Y,Y,Y
+54,    , 1113A ,1113A,G23,F6   ,AF32 ,BD31 ,,,,,GR,/,AO,-,GR,/,AO,Y,Y,Y,Y,Y,Y,Y
+55,    , 1114A ,1114A,G5,F6   ,BB40 ,BD22 ,,,,,AO,/,GR,-,AO,/,GR,Y,Y,Y,Y,Y,Y,Y
+56,    , 1115A ,1115A,G5,F6   ,BB41 ,BD38 ,,,,,VC,/,MO,-,VC,/,MO,Y,Y,Y,Y,Y,Y,Y
+57,    , 1116A ,1116A,C25,F6   ,AG05 ,BD10 ,,,,,CF,/,AO,-,CF,/,AO,Y,Y,Y,Y,Y,Y,Y
+58,    , 1117A ,1117A,C25,F6   ,AG06 ,BD11 ,,,,,GR,/,BL,-,GR,/,BL,Y,Y,Y,Y,Y,Y,Y
+59,    , 1118A ,1118A,E3,F6   ,BB12 ,BD29 ,,,,,CF,/,VC,-,CF,/,VC,Y,Y,Y,Y,Y,Y,Y
+60,    , 1119A ,1119A,E3,F6   ,BB13 ,BD45 ,,,,,VC,/,GR,-,VC,/,GR,Y,Y,Y,Y,Y,Y,Y
+61,    , 1161A ,1161A,H25,B22  ,AH08 ,AC55 ,,,,,AM,/,BL,-,AM,/,BL,Y,Y,Y,Y,Y,Y,Y
+62,    , 1162A ,1162A,H25,B22  ,AH09 ,AC52 ,,,,,VC,/,BL,-,VC,/,BL,Y,Y,Y,Y,Y,Y,Y
+63,    , 1164A ,1164A,H25,B22  ,AH10 ,AC56 ,,,,,BL,/,RJ,-,BL,/,RJ,Y,Y,Y,Y,Y,Y,Y
+64,    , 1177A ,1177A,B26,C29  ,AE02 ,AD28 ,,,,,VC,/,GR,-,VC,/,GR,Y,Y,Y,Y,Y,Y,Y
+65,    , 1250A ,1250A,J6B,K1   ,BD61 ,BG16 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+66,    , 1250B ,1250B,J6B,G4   ,BD61 ,BP16 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+67,    , 1271A ,1271A,H25,B22  ,AH14 ,AC54 ,,,,,NE,/,AO,-,NE,/,AO,Y,Y,Y,Y,Y,Y,Y
+68,    , 1272A ,1272A,H25,B22  ,AH15 ,AC53 ,,,,,NE,/,MO,-,NE,/,MO,Y,Y,Y,Y,Y,Y,Y
+69,    , 1274A ,1274A,H25,B22  ,AH16 ,AC51 ,,,,,CF,/,RJ,-,CF,/,RJ,Y,Y,Y,Y,Y,Y,Y
+70,    , 1303A ,1303A,D28,B1   ,AI31 ,BR19 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+71,    , 1310A ,1310A,D3,G4   ,BE43 ,BP10 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+72,    , 1334A ,1334A,D27,H7   ,BN03 ,BC45 ,,,,,AO,/,BL,-,AO,/,BL,Y,Y,Y,Y,Y,Y,Y
+73,    , 1335A ,1335A,D27,A5   ,BN07 ,BI39 ,,,,,AO,/,MO,-,AO,/,MO,Y,Y,Y,Y,Y,Y,Y
+74,    , 1363B ,1363C,F19,H20  ,AJ42 ,AN33 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+75,    , 1363C ,1363B,H20,F19  ,AN33 ,AJ42 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+76,    , 1363E ,1363C,B19,H20  ,AK33 ,AN33 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+77,    , 1551B ,1551B,C10,A11  ,AM62 ,BA04 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,-,Y,Y,-,Y
+78,    , 1551F ,1551E,C12,C12  ,BC30 ,BC29 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+79,    , 1551E ,1551F,C12,C12  ,BC29 ,BC30 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+80,    , 1551F ,1551G,C12,C10  ,BC30 ,AM62 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+81,    , 1610A ,1610A,C25,K1   ,AG03 ,BG08 ,,,,,GR,/,MO,-,GR,/,MO,Y,Y,Y,Y,Y,Y,Y
+82,    , 1613A ,1613A,G23,K1   ,AF07 ,BG03 ,,,,,CF,/,  ,-,CF,/,  ,Y,Y,Y,Y,Y,Y,Y
+83,    , 1640A ,1640A,B2,F9   ,BI53 ,BG27 ,,,,,RJ,/,MO,-,RJ,/,MO,Y,Y,Y,Y,Y,Y,Y
+84,    , 1642A ,1642A,G6,H11B ,BB49 ,BE01 ,,,,,RJ,/,BL,-,RJ,/,BL,Y,Y,Y,Y,Y,Y,Y
+85,    , 1650C ,1650B,B1,A5   ,BR17 ,BI37 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+86,    , 1650B ,1650C,A5,B1   ,BI37 ,BR17 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+87,    , 1650C ,1650E,B1,A1B  ,BR17 ,BR13 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+88,    , 1650C ,1650G,B1,C11  ,BR17 ,AM59 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+89,    , 1651C ,1651B,A12,A10  ,BF31 ,BC14 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+90,    , 1651B ,1651C,A10,A12  ,BC14 ,BF31 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+91,    , 1651C ,1651E,A12,C11  ,BF31 ,AM59 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+92,    , 1651G ,1651G,C9,B11  ,AP60 ,AP62 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+93,    , 1690A ,1690A,J27,H15  ,AB27 ,BK30 ,,,,,AM,/,BL,-,AM,/,BL,Y,Y,Y,Y,Y,Y,Y
+94,    , 1691A ,1691A,J27,H15  ,AB26 ,BK31 ,,,,,NE,/,AM,-,NE,/,AM,Y,Y,Y,Y,Y,Y,Y
+95,    , 1715A ,1715B,D27,J25  ,BN11 ,AL25 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
+96,    , 1715B ,1715A,J25,D27  ,AL25 ,BN11 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
+97,    , 1715C ,1715B,H25,J25  ,AH12 ,AL25 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
+98,    , 1740A ,1740A,D28,G11  ,AI34 ,AP39 ,,,,,RJ,/,GR,-,RJ,/,GR,Y,Y,Y,Y,Y,Y,Y
+99,    , 1742A ,1742A,4,186,     ,     ,,,,,RJ,/,CF,-,RJ,/,CF,Y,Y,Y,Y,Y,Y,Y
+100,    , 1751A ,1751A,D25,B19  ,AC12 ,AK26 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+101,    , 1817A ,1817A,G23,F6   ,AF15 ,BD25 ,,,,,AM,/,RJ,-,AM,/,RJ,Y,Y,Y,Y,Y,Y,Y
+102,    , 1818A ,1818A,K2,F6   ,BP42 ,BD26 ,,,,,MO,/,RJ,-,MO,/,RJ,Y,Y,Y,Y,Y,Y,Y
+103,    , 1819A ,1819A,C25,F6   ,AG38 ,BD41 ,,,,,CF,/,RJ,-,CF,/,RJ,Y,Y,Y,Y,Y,Y,Y
+104,    , 1820A ,1820A,K1,F6   ,BG06 ,BD42 ,,,,,GR,/,RJ,-,GR,/,RJ,Y,Y,Y,Y,Y,Y,Y
+105,    , 1833A ,1833A,K2,F6   ,BP43 ,BD28 ,,,,,NE,/,MO,-,NE,/,MO,Y,Y,Y,Y,Y,Y,Y
+106,    , 1842A ,1842A,184,F9   ,     ,BG42 ,,,,,RJ,/,AO,-,RJ,/,AO,Y,Y,Y,Y,Y,Y,Y
+107,    , 1940A ,1940A,J27,G11  ,AB20 ,AP30 ,,,,,RJ,/,MO,-,RJ,/,MO,Y,Y,Y,Y,Y,Y,Y
+108,    , 1988A ,1988A,H25,K2   ,AH24 ,BP47 ,,,,,VC,/,MO,-,VC,/,MO,Y,Y,Y,Y,Y,Y,Y
+109,    , 2001A ,2001A,H25,K2   ,AH35 ,BP55 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+110,    , 2040A ,2040A,H20,F9   ,AN04 ,BG54 ,,,,,RJ,/,BL,-,RJ,/,BL,Y,Y,Y,Y,Y,Y,Y
+111,    , 2066A ,2066A,D29,G2   ,AA05 ,BH14 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
+112,    , 2077A ,2077A,H20,B19  ,AN15 ,AK15 ,,,,,CF,/,MO,-,CF,/,MO,Y,Y,Y,Y,Y,Y,Y
+113,    , 2078A ,2078A,H20,B19  ,AN16 ,AK16 ,,,,,CF,/,NE,-,CF,/,NE,Y,Y,Y,Y,Y,Y,Y
+114,    , 2079A ,2079A,H20,B19  ,AN11 ,AK11 ,,,,,AM,/,GR,-,AM,/,GR,Y,Y,Y,Y,Y,Y,Y
+115,    , 2080A ,2080A,H20,B19  ,AN10 ,AK10 ,,,,,NE,/,AM,-,NE,/,AM,Y,Y,Y,Y,Y,Y,Y
+116,    , 2114A ,2114A,J27,D27  ,AB03 ,BN10 ,,,,,BL,/,GR,-,BL,/,GR,Y,Y,Y,Y,Y,Y,Y
+117,    , 2115A ,2115A,D27,B26  ,BN09 ,AE03 ,,,,,VC,/,GR,-,VC,/,GR,Y,Y,Y,Y,Y,Y,Y
+118,    , 2139A ,2139A,J25,H25  ,AL57 ,AH38 ,,,,,MO,/,NE,-,MO,/,NE,Y,Y,Y,Y,Y,Y,Y
+119,    , 2150E ,2150A,J27,H20  ,AB31 ,AN01 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+120,    , 2150E ,2150A,J27,H20  ,AB31 ,AN01 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+121,    , 2150E ,2150G,J27,H19  ,AB31 ,BD47 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+122,    , 2150H ,2150E,G28,J27  ,AF60 ,AB31 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+123,    , 2239A ,2239B,J25,K3   ,AL15 ,BF53 ,,,,,MO,/,VC,-,MO,/,VC,Y,Y,Y,Y,Y,Y,Y
+124,    , 2239A ,2239B,J25,K3   ,AL15 ,BF53 ,,,,,MO,/,VC,-,MO,/,VC,Y,Y,Y,Y,Y,Y,Y
+125,    , 2239B ,2239C,K3,K4   ,BF53 ,BP31 ,,,,,MO,/,VC,-,MO,/,VC,Y,Y,Y,Y,Y,Y,Y
+126,    , 2250B ,2250C,D28,D16  ,AI35 ,BL42 ,,,,,NE,/,BL,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+127,    , 2250B ,2250C,D28,D16  ,AI35 ,BL42 ,,,,,NE,/,BL,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+128,    , 2250E ,2250C,B26,D16  ,AE31 ,BL42 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+129,    , 2250C ,2250F,D16,B19  ,BL42 ,AK01 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+130,    , 2250G ,2250C,D28,D16  ,AI33 ,BL42 ,,,,,NE,/,BL,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+131,    , 2250H ,2250C,B28,D16  ,AA62 ,BL42 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+132,    , 2350A ,2350B,K19,H15  ,CF01 ,BK56 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+133,    , 2350A ,2350B,K19,H15  ,CF01 ,BK56 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+134,    , 2350C ,2350E,K19,G8   ,CF25 ,BB30 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+135,    , 2350E ,2350C,G8,K19  ,BB30 ,CF25 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+136,    , 2350F ,2350B,F14,H15  ,AR61 ,BK56 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+137,    , 2350H ,2350B,G22,H15  ,AR53 ,BK56 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+138,    , 2350J ,2350E,F14,G8   ,AR61 ,BB30 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+139,    , 2350B ,2350K,H15,H15  ,BK56 ,BK12 ,,,,,NE,/,  ,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+140,    , 2350L ,2350B,G27,H15  ,AB40 ,BK56 ,,,,,NE,/,BL,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+141,    , 2374A ,2374A,A9,H2   ,BC34 ,BH31 ,,,,,CF,/,BL,-,CF,/,BL,Y,Y,Y,Y,Y,Y,Y
+142,    , 2375A ,2375A,A9,H2   ,BC33 ,BH32 ,,,,,AM,/,  ,-,AM,/,  ,Y,Y,Y,Y,Y,Y,Y
+143,    , 2376A ,2376A,A9,H2   ,BC36 ,BH33 ,,,,,AM,/,AO,-,AM,/,AO,Y,Y,Y,Y,Y,Y,Y
+144,    , 2377A ,2377A,A9,H2   ,BC32 ,BH34 ,,,,,AM,/,BL,-,AM,/,BL,Y,Y,Y,Y,Y,Y,Y
+145,    , 2378A ,2378A,A9,H2   ,BC35 ,BH35 ,,,,,AM,/,MO,-,AM,/,MO,Y,Y,Y,Y,Y,Y,Y
+146,    , 2379A ,2379A,A9,H2   ,BC38 ,BH36 ,,,,,NE,/,GR,-,NE,/,GR,Y,Y,Y,Y,Y,Y,Y
+147,    , 2425A ,2425A,H20,B19  ,AN18 ,AK18 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+148,    , 2450A ,2450A,A18,B14  ,CE25 ,BA64 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+149,    , 2450C ,2450B,C3,C4   ,AP01 ,BR22 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+150,    , 2450B ,2450C,C4,C3   ,BR22 ,AP01 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+151,    , 2450E ,2450C,B2,C3   ,BI56 ,AP01 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+152,    , 2450F ,2450C,A18,C3   ,CE01 ,AP01 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+153,    , 2450H ,2450C,B23,C3   ,AA46 ,AP01 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+154,    , 2450J ,2450C,B14,C3   ,BA64 ,AP01 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+155,    , 2514A ,2514A,H15,A11  ,BK25 ,BA10 ,,,,,VC,/,BL,-,VC,/,BL,Y,Y,-,Y,Y,-,Y
+156,    , 2515A ,2515A,H15,A11  ,BK26 ,BA06 ,,,,,VC,/,NE,-,VC,/,NE,Y,Y,-,Y,Y,-,Y
+157,    , 2516A ,2516A,H15,A11  ,BK27 ,BA18 ,,,,,AM,/,MO,-,AM,/,MO,Y,Y,-,Y,Y,-,Y
+158,    , 2517A ,2517A,H15,A11  ,BK28 ,BA25 ,,,,,CF,/,BL,-,CF,/,BL,Y,Y,-,Y,Y,-,Y
+159,    , 2550F ,2550A,H7,H2   ,BC43 ,BH44 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+160,    , 2550E ,2550E,K7,E7   ,BF22 ,BI62 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+161,    , 2550A ,2550F,H2,H7   ,BH44 ,BC43 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+162,    , 2550F ,2550L,H7,G11  ,BC43 ,AP13 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+163,    , 2550F ,2550M,H7,H2   ,BC43 ,BH41 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+164,    , 2550F ,2550T,H7,K8   ,BC43 ,BF25 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+165,    , 2550F ,2550X,H7,K3   ,BC43 ,BF51 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+166,    , 2550F ,2550Z,H7,K4   ,BC43 ,BP29 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+167,    , 2551B ,2551A,K1,H2   ,BG07 ,BH30 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+168,    , 2551A ,2551B,H2,K1   ,BH30 ,BG07 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+169,    , 2551B ,2551C,K1,F6   ,BG07 ,BD14 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+170,    , 2551B ,2551E,K1,K8   ,BG07 ,BF25 ,,,,,NE,/,BL,-,NE,/,BL,Y,Y,Y,Y,Y,Y,Y
+171,    , 2640A ,2640A,G4,F9   ,BP01 ,BG23 ,,,,,RJ,/,MO,-,RJ,/,MO,Y,Y,Y,Y,Y,Y,Y
+172,    , 2653A ,2653A,B19,F19  ,AK32 ,AJ44 ,,,,,NA,/,BL,-,NA,/,BL,Y,Y,Y,Y,Y,Y,Y
+173,    , 2674A ,2674A,J27,C30  ,AB04 ,BM29 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
+174,    , 2675A ,2675A,J27,C30  ,AB06 ,BM28 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+175,    , 2676A ,2676A,B26,D29  ,AE04 ,AA27 ,,,,,GR,/,MO,-,GR,/,MO,Y,Y,Y,Y,Y,Y,Y
+176,    , 2677A ,2677A,B26,C30  ,AE16 ,BM30 ,,,,,GR,/,AO,-,GR,/,AO,Y,Y,Y,Y,Y,Y,Y
+177,    , 2683B ,2683A,D30,D2   ,BN35 ,BE36 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+178,    , 2683B ,2683A,D30,D2   ,BN35 ,BE36 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+179,    , 2683C ,2683B,J27,D30  ,AB21 ,BN35 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+180,    , 2683E ,2683B,K19,D30  ,CF06 ,BN35 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+181,    , 2684B ,2684A,B26,A18  ,AE21 ,CE06 ,,,,,BL,/,CF,-,BL,/,CF,Y,Y,Y,Y,Y,Y,Y
+182,    , 2684B ,2684A,B26,A18  ,AE21 ,CE06 ,,,,,BL,/,CF,-,BL,/,CF,Y,Y,Y,Y,Y,Y,Y
+183,    , 2684C ,2684B,C30,B26  ,BM03 ,AE21 ,,,,,BL,/,CF,-,BL,/,CF,Y,Y,Y,Y,Y,Y,Y
+184,    , 2685A ,2685A,D29,K19  ,AA03 ,CF03 ,,,,,AO,/,BL,-,AO,/,BL,Y,Y,Y,Y,Y,Y,Y
+185,    , 2686A ,2686A,C30,A18  ,BM02 ,CE03 ,,,,,VC,/,NE,-,VC,/,NE,Y,Y,Y,Y,Y,Y,Y
+186,    , 2687A ,2687A,J27,D30  ,AB23 ,BN38 ,,,,,MO,/,AO,-,MO,/,AO,Y,Y,Y,Y,Y,Y,Y
+187,    , 2688A ,2688A,B26,D29  ,AE06 ,AA04 ,,,,,VC,/,  ,-,VC,/,  ,Y,Y,Y,Y,Y,Y,Y
+188,    , 2690A ,2690A,C29,D2   ,AD02 ,BE35 ,,,,,AO,/,NE,-,AO,/,NE,Y,Y,Y,Y,Y,Y,Y
+189,    , 2731A ,2731A,J25,H25  ,AL38 ,AH21 ,,,,,VC,/,AM,-,VC,/,AM,Y,Y,Y,Y,Y,Y,Y
+190,    , 2740A ,2740A,D28,C25  ,AI32 ,AG17 ,,,,,RJ,/,BL,-,RJ,/,BL,Y,Y,Y,Y,Y,Y,Y
+191,    , 2854A ,2854A,J25,G8   ,AL52 ,BB32 ,,,,,VC,/,BL,-,VC,/,BL,Y,Y,Y,Y,Y,Y,Y
+192,    , 2854B ,2854B,D29,D25  ,AA17 ,AC11 ,,,,,VC,/,BL,-,VC,/,BL,Y,Y,Y,Y,Y,Y,Y
+193,    , 2855A ,2855A,D30,G6   ,BN47 ,BB48 ,,,,,VC,/,AM,-,VC,/,AM,Y,Y,Y,Y,Y,Y,Y
+194,    , 2856A ,2856A,D29,H2   ,AA19 ,BH29 ,,,,,VC,/,AO,-,VC,/,AO,Y,Y,Y,Y,Y,Y,Y
+195,    , 2857A ,2857A,C29,B19  ,AD19 ,AK09 ,,,,,VC,/,MO,-,VC,/,MO,Y,Y,Y,Y,Y,Y,Y
+196,    , 2862A ,2862A,D29,B2   ,AA16 ,BI54 ,,,,,VC,/,AM,-,VC,/,AM,Y,Y,Y,Y,Y,Y,Y
+197,    , 3140A ,3140A,A10,F9   ,BC09 ,BG53 ,,,,,RJ,/,VC,-,RJ,/,VC,Y,Y,Y,Y,Y,Y,Y
+198,    , 3154A ,3154A,C25,B10  ,AG01 ,BA32 ,,,,,GR,/,  ,-,GR,/,  ,Y,-,Y,Y,-,Y,-
+199,    , 3155A ,3155A,C25,B10  ,AG02 ,BA41 ,,,,,VC,/,  ,-,VC,/,  ,Y,-,Y,Y,-,Y,-
+200,    , 3156A ,3156A,A9,G2   ,BC37 ,BH18 ,,,,,VC,/,  ,-,VC,/,  ,Y,-,Y,Y,-,Y,-
+201,    , 3157A ,3157A,A9,G2   ,BC31 ,BH17 ,,,,,AO,/,  ,-,AO,/,  ,Y,-,Y,Y,-,Y,-
+202,    , 3475B ,3475B,70,F19  ,     ,AJ04 ,,,,,NA,/,VC,-,NA,/,VC,Y,Y,Y,Y,Y,Y,Y
+203,    , 3476B ,3476B,70,F19  ,     ,AJ03 ,,,,,BL,/,NA,-,BL,/,NA,Y,Y,Y,Y,Y,Y,Y
+204,    , 3477B ,3477B,17,F19  ,     ,AJ01 ,,,,,NA,/,BL,-,NA,/,BL,Y,Y,Y,Y,Y,Y,Y
+205,    , 3478B ,3478B,17,F19  ,     ,AJ02 ,,,,,MO,/,NA,-,MO,/,NA,Y,Y,Y,Y,Y,Y,Y
+206,    , 3479A ,3479A,65,F19  ,     ,AJ08 ,,,,,NA,/,CF,-,NA,/,CF,Y,Y,Y,Y,Y,Y,Y
+207,    , 3480A ,3480A,65,F19  ,     ,AJ07 ,,,,,GR,/,NA,-,GR,/,NA,Y,Y,Y,Y,Y,Y,Y
+208,    , 3481A ,3481A,16,F19  ,     ,AJ05 ,,,,,NA,/,AM,-,NA,/,AM,Y,Y,Y,Y,Y,Y,Y
+209,    , 3482A ,3482A,16,F19  ,     ,AJ06 ,,,,,MO,/,NA,-,MO,/,NA,Y,Y,Y,Y,Y,Y,Y
+210,    , 3540A ,3540A,G8,F9   ,BB26 ,BG37 ,,,,,RJ,/,GR,-,RJ,/,GR,Y,Y,Y,Y,Y,Y,Y
+211,    , 3840A ,3840A,H2,G11  ,BH43 ,AP35 ,,,,,RJ,/,VC,-,RJ,/,VC,Y,Y,Y,Y,Y,Y,Y
+212,    , 3940A ,3940A,A11,F9   ,BA01 ,BG55 ,,,,,RJ,/,AO,-,RJ,/,AO,Y,Y,-,Y,Y,-,Y
+213,    , 3946A ,3946A,B19,D14  ,AK24 ,BL54 ,,,,,GR,/,NA,-,GR,/,NA,Y,Y,Y,Y,Y,Y,Y
+214,    , 3947A ,3947A,B19,D14  ,AK25 ,BL55 ,,,,,NA,/,CF,-,NA,/,CF,Y,Y,Y,Y,Y,Y,Y
+215,    , 4001A ,4001A,D28,K19  ,AI25 ,CF09 ,,,,,MO,/,AO,-,MO,/,AO,Y,Y,Y,Y,Y,Y,Y
+216,    , 4002A ,4002A,D28,K19  ,AI26 ,CF10 ,,,,,BL,/,AM,-,BL,/,AM,Y,Y,Y,Y,Y,Y,Y
+217,    , 4003A ,4003A,D28,A18  ,AI27 ,CE09 ,,,,,VC,/,CF,-,VC,/,CF,Y,Y,Y,Y,Y,Y,Y
+218,    , 4004A ,4004A,D28,A18  ,AI28 ,CE10 ,,,,,AO,/,GR,-,AO,/,GR,Y,Y,Y,Y,Y,Y,Y
+219,    , 4064A ,4064A,C30,C25  ,BM22 ,AG21 ,,,,,CF,/,VC,-,CF,/,VC,Y,Y,Y,Y,Y,Y,Y
+220,    , 4115A ,4115A,D25,C25  ,AC28 ,AG30 ,,,,,VC,/,BL,-,VC,/,BL,Y,Y,Y,Y,Y,Y,Y
+221,    , 4305B ,4305A,K4,K3   ,BP30 ,BF52 ,,,,,CF,/,VC,-,CF,/,VC,Y,Y,Y,Y,Y,Y,Y
+222,    , 4305A ,4305B,K3,K4   ,BF52 ,BP30 ,,,,,CF,/,VC,-,CF,/,VC,Y,Y,Y,Y,Y,Y,Y
+223,    , 4305B ,4305C,K4,G4   ,BP30 ,BP02 ,,,,,CF,/,VC,-,CF,/,VC,Y,Y,Y,Y,Y,Y,Y
+224,    , 4306B ,4306B,G4,K3   ,BP03 ,BF54 ,,,,,AO,/,BL,-,AO,/,BL,Y,Y,Y,Y,Y,Y,Y
+225,    , 4317A ,4317A,K4,G4   ,BP32 ,BP04 ,,,,,MO,/,AM,-,MO,/,AM,Y,Y,Y,Y,Y,Y,Y
+226,    , 4320A ,4320B,H25,J25  ,AH22 ,AL29 ,,,,,MO,/,VC,-,MO,/,VC,Y,Y,Y,Y,Y,Y,Y
+227,    , 4320B ,4320A,J25,H25  ,AL29 ,AH22 ,,,,,MO,/,VC,-,MO,/,VC,Y,Y,Y,Y,Y,Y,Y
+228,    , 4320B ,4320E,J25,G4   ,AL29 ,BP11 ,,,,,MO,/,VC,-,MO,/,VC,Y,Y,Y,Y,Y,Y,Y
+229,    , 4368A ,4368A,H25,K2   ,AH23 ,BP48 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
+230,    , 4369A ,4369A,H25,K2   ,AH33 ,BP40 ,,,,,GR,/,NE,-,GR,/,NE,Y,Y,Y,Y,Y,Y,Y
+231,    , 4440A ,4440A,D25,B19  ,AC21 ,AK22 ,,,,,RJ,/,VC,-,RJ,/,VC,Y,Y,Y,Y,Y,Y,Y
+232,    , 4733A ,4733B,B26,A18  ,AE09 ,CE18 ,,,,,AM,/,VC,-,AM,/,VC,Y,Y,Y,Y,Y,Y,Y
+233,    , 4733B ,4733A,A18,B26  ,CE18 ,AE09 ,,,,,AM,/,VC,-,AM,/,VC,Y,Y,Y,Y,Y,Y,Y
+234,    , 4733C ,4733B,J27,A18  ,AB24 ,CE18 ,,,,,AM,/,VC,-,AM,/,VC,Y,Y,Y,Y,Y,Y,Y
+235,    , 4733E ,4733B,K19,A18  ,CF18 ,CE18 ,,,,,AM,/,VC,-,AM,/,VC,Y,Y,Y,Y,Y,Y,Y
+236,    , 4733G ,4733B,D27,A18  ,BN01 ,CE18 ,,,,,AM,/,VC,-,AM,/,VC,Y,Y,Y,Y,Y,Y,Y
+237,    , 4783A ,4783B,C30,B19  ,BM10 ,AK34 ,,,,,AM,/,AO,-,AM,/,AO,Y,Y,Y,Y,Y,Y,Y
+238,    , 4783B ,4783A,B19,C30  ,AK34 ,BM10 ,,,,,AM,/,AO,-,AM,/,AO,Y,Y,Y,Y,Y,Y,Y
+239,    , 4783C ,4783B,H20,B19  ,AN39 ,AK34 ,,,,,AM,/,AO,-,AM,/,AO,Y,Y,Y,Y,Y,Y,Y
+240,    , 4956A ,4956A,B19,F19  ,AK35 ,AJ22 ,,,,,NA,/,GR,-,NA,/,GR,Y,Y,Y,Y,Y,Y,Y
+241,    , 4957A ,4957A,B19,F19  ,AK36 ,AJ21 ,,,,,AO,/,NA,-,AO,/,NA,Y,Y,Y,Y,Y,Y,Y
+242,    , 4962A ,4962A,H20,F19  ,AN35 ,AJ19 ,,,,,NA,/,AO,-,NA,/,AO,Y,Y,Y,Y,Y,Y,Y
+243,    , 4963A ,4963A,H20,F19  ,AN36 ,AJ20 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+244,    , 4994A ,4994A,D29,K19  ,AA15 ,CF05 ,,,,,BL,/,MO,-,BL,/,MO,Y,Y,Y,Y,Y,Y,Y
+245,    , 4995A ,4995A,C30,A18  ,BM31 ,CE05 ,,,,,GR,/,AO,-,GR,/,AO,Y,Y,Y,Y,Y,Y,Y
+246,    , 5040B ,5040B,H20,G11  ,AN13 ,AP44 ,,,,,RJ,/,AM,-,RJ,/,AM,Y,Y,Y,Y,Y,Y,Y
+247,    , 5140A ,5140A,F6,G11  ,BD01 ,AP24 ,,,,,RJ,/,VC,-,RJ,/,VC,Y,Y,Y,Y,Y,Y,Y
+248,    , 5214A ,5214A,C25,B10  ,AG25 ,BA42 ,,,,,NE,/,AO,-,NE,/,AO,Y,Y,Y,Y,Y,Y,Y
+249,    , 5215A ,5215A,C25,B10  ,AG26 ,BA39 ,,,,,MO,/,BL,-,MO,/,BL,Y,Y,Y,Y,Y,Y,Y
+250,    , 5216A ,5216A,C25,B10  ,AG27 ,BA33 ,,,,,AM,/,GR,-,AM,/,GR,Y,Y,Y,Y,Y,Y,Y
+251,    , 5217A ,5217A,C25,B10  ,AG28 ,BA34 ,,,,,BL,/,GR,-,BL,/,GR,Y,Y,Y,Y,Y,Y,Y
+252,    , 5218A ,5218A,C25,B10  ,AG29 ,BA40 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+253,    , 5240A ,5240A,B19,F9   ,AK27 ,BG26 ,,,,,RJ,/,AO,-,RJ,/,AO,Y,Y,Y,Y,Y,Y,Y
+254,    , 5340A ,5340A,B19,G11  ,AK13 ,AP46 ,,,,,RJ,/,MO,-,RJ,/,MO,Y,Y,Y,Y,Y,Y,Y
+255,    , 5359A ,5359A,H25,D30  ,AH26 ,BN54 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+256,    , 5360A ,5360A,H25,D30  ,AH27 ,BN56 ,,,,,NE,/,CF,-,NE,/,CF,Y,Y,Y,Y,Y,Y,Y
+257,    , 5361A ,5361A,H25,D30  ,AH28 ,BN55 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,Y,Y,Y,Y,Y
+258,    , 5486A ,5486A,C30,G11  ,BM14 ,AP52 ,,,,,CF,/,MO,-,CF,/,MO,Y,Y,Y,Y,Y,Y,Y
+259,    , 5797A ,5797A,C30,A1B  ,BM05 ,BR15 ,,,,,AM,/,AO,-,AM,/,AO,Y,Y,Y,Y,Y,Y,Y
+260,    , 5906A ,5906A,H20,B19  ,AN20 ,AK20 ,,,,,VC,/,MO,-,VC,/,MO,Y,Y,Y,Y,Y,Y,Y
+261,    , 5940A ,5940A,G27,G11  ,AB37 ,AP54 ,,,,,RJ,/,CF,-,RJ,/,CF,Y,Y,Y,Y,Y,Y,Y
+262,    , 5966A ,5966B,J27,D27  ,AB16 ,BN26 ,,,,,BL,/,VC,-,BL,/,VC,Y,Y,Y,Y,Y,Y,Y
+263,    , 5966B ,5966A,D27,J27  ,BN26 ,AB16 ,,,,,BL,/,VC,-,BL,/,VC,Y,Y,Y,Y,Y,Y,Y
+264,    , 5966C ,5966B,B26,D27  ,AE11 ,BN26 ,,,,,BL,/,VC,-,BL,/,VC,Y,Y,Y,Y,Y,Y,Y
+265,    , 6128A ,6128A,D29,B1   ,AA01 ,BR16 ,,,,,AO,/,BL,-,AO,/,BL,Y,Y,Y,Y,Y,Y,Y
+266,    , 6132A ,6132A,C30,D25  ,BM13 ,AC27 ,,,,,VC,/,CF,-,VC,/,CF,Y,Y,Y,Y,Y,Y,-
+267,    , 6133A ,6133A,C30,C25  ,BM11 ,AG04 ,,,,,VC,/,AO,-,VC,/,AO,Y,Y,Y,Y,Y,Y,Y
+268,    , 6134A ,6134B,B26,J27  ,AE12 ,AB12 ,,,,,VC,/,AM,-,VC,/,AM,Y,Y,Y,Y,Y,Y,Y
+269,    , 6134B ,6134A,J27,B26  ,AB12 ,AE12 ,,,,,VC,/,AM,-,VC,/,AM,Y,Y,Y,Y,Y,Y,Y
+270,    , 6134C ,6134B,D30,J27  ,BN49 ,AB12 ,,,,,VC,/,AM,-,VC,/,AM,Y,Y,Y,Y,Y,Y,Y
+271,    , 6135A ,6135B,D29,K19  ,AA28 ,CF04 ,,,,,VC,/,GR,-,VC,/,GR,Y,Y,Y,Y,Y,Y,Y
+272,    , 6135B ,6135A,K19,D29  ,CF04 ,AA28 ,,,,,VC,/,GR,-,VC,/,GR,Y,Y,Y,Y,Y,Y,Y
+273,    , 6135C ,6135B,A18,K19  ,CE04 ,CF04 ,,,,,VC,/,GR,-,VC,/,GR,Y,Y,Y,Y,Y,Y,Y
+274,    , 6140A ,6140A,G2,G11  ,BH15 ,AP37 ,,,,,RJ,/,VC,-,RJ,/,VC,Y,Y,Y,Y,Y,Y,Y
+275,    , 6156A ,6156A,D29,D29  ,AA14 ,AA18 ,,,,,VC,/,NE,-,VC,/,NE,Y,Y,Y,Y,Y,Y,Y
+276,    , 6311A ,6311A,D28,D30  ,AI17 ,BN51 ,,,,,BL,/,AO,-,BL,/,AO,Y,Y,Y,Y,Y,Y,Y
+277,    , 6340B ,6340B,J25,F9   ,AL13 ,BG40 ,,,,,RJ,/,MO,-,RJ,/,MO,Y,Y,Y,Y,Y,Y,Y
+278,    , 6440A ,6440A,A12,G11  ,BF38 ,AP51 ,,,,,RJ,/,BL,-,RJ,/,BL,Y,Y,Y,Y,Y,Y,Y
+279,    , 6540F ,6540F,H15,G11  ,BK09 ,AP31 ,,,,,RJ,/,AM,-,RJ,/,AM,Y,Y,Y,Y,Y,Y,Y
+280,    , 6567A ,6567A,D27,H7   ,BN21 ,BC46 ,,,,,BL,/,MO,-,BL,/,MO,Y,Y,Y,Y,Y,Y,Y
+281,    , 6581A ,6581A,C25,B10  ,AG35 ,BA35 ,,,,,CF,/,  ,-,CF,/,  ,Y,Y,Y,Y,Y,Y,Y
+282,    , 6640A ,6640A,B19,G11  ,AK14 ,AP27 ,,,,,RJ,/,CF,-,RJ,/,CF,Y,Y,Y,Y,Y,Y,Y
+283,    , 6653A ,6653A,D29,K19  ,AA23 ,CF08 ,,,,,AM,/,  ,-,AM,/,  ,Y,Y,Y,Y,Y,Y,Y
+284,    , 6654A ,6654A,C30,A18  ,BM32 ,CE08 ,,,,,CF,/,BL,-,CF,/,BL,Y,Y,Y,Y,Y,Y,Y
+285,    , 6675A ,6675A,C30,K19  ,BM24 ,CF11 ,,,,,MO,/,BL,-,MO,/,BL,Y,Y,Y,Y,Y,Y,Y
+286,    , 6677A ,6677A,C30,A18  ,BM23 ,CE11 ,,,,,AM,/,NE,-,AM,/,NE,Y,Y,Y,Y,Y,Y,Y
+287,    , 6740A ,6740A,H19,G11  ,BD50 ,AP26 ,,,,,RJ,/,AO,-,RJ,/,AO,Y,Y,Y,Y,Y,Y,Y
+288,    , 6817A ,6817A,D30,A18  ,BN37 ,CE12 ,,,,,AM,/,  ,-,AM,/,  ,Y,Y,Y,Y,Y,Y,Y
+289,    , 6817B ,6817B,J25,K19  ,AL55 ,CF12 ,,,,,AM,/,  ,-,AM,/,  ,Y,Y,Y,Y,Y,Y,Y
+290,    , 6840A ,6840A,D16,G11  ,BL45 ,AP22 ,,,,,VC,/,AM,-,VC,/,AM,Y,Y,Y,Y,Y,Y,Y
+291,    , 6846A ,6846A,D27,A1B  ,BN27 ,BR14 ,,,,,VC,/,AM,-,VC,/,AM,Y,Y,Y,Y,Y,Y,Y
+292,    , 6940B ,6940A,C12,C12  ,BC26 ,BC25 ,,,,,RJ,/,VC,-,RJ,/,VC,Y,Y,Y,Y,Y,Y,Y
+293,    , 6940A ,6940B,C12,C12  ,BC25 ,BC26 ,,,,,RJ,/,VC,-,RJ,/,VC,Y,Y,Y,Y,Y,Y,Y
+294,    , 6940B ,6940C,C12,G11  ,BC26 ,AP32 ,,,,,RJ,/,VC,-,RJ,/,VC,Y,Y,Y,Y,Y,Y,Y
+295,    , 6993A ,6993A,D27,H7   ,BN06 ,BC44 ,,,,,CF,/,AO,-,CF,/,AO,Y,Y,Y,Y,Y,Y,Y
+296,    , 6995A ,6995A,D27,A5   ,BN02 ,BI38 ,,,,,CF,/,GR,-,CF,/,GR,Y,Y,Y,Y,Y,Y,Y
+297,    , 7013A ,7013A,F19,J15A ,AJ12 ,BP56 ,,,,,NA,/,AM,-,NA,/,AM,Y,Y,Y,Y,Y,Y,Y
+298,    , 7014A ,7014A,F19,J15A ,AJ11 ,BP57 ,,,,,VC,/,NA,-,VC,/,NA,Y,Y,Y,Y,Y,Y,Y
+299,    , 7015A ,7015A,F19,C2   ,AJ13 ,BE53 ,,,,,NA,/,AO,-,NA,/,AO,Y,Y,Y,Y,Y,Y,Y
+300,    , 7016A ,7016A,F19,C2   ,AJ14 ,BE54 ,,,,,GR,/,NA,-,GR,/,NA,Y,Y,Y,Y,Y,Y,Y
+301,    , 7040A ,7040B,K19,J27  ,CF24 ,AB30 ,,,,,RJ,/,GR,-,RJ,/,GR,Y,Y,Y,Y,Y,Y,Y
+302,    , 7040B ,7040A,J27,K19  ,AB30 ,CF24 ,,,,,RJ,/,GR,-,RJ,/,GR,Y,Y,Y,Y,Y,Y,Y
+303,    , 7040B ,7040C,J27,G11  ,AB30 ,AP45 ,,,,,RJ,/,GR,-,RJ,/,GR,Y,Y,Y,Y,Y,Y,Y
+304,    , 7140B ,7140A,G11,A18  ,AP42 ,CE24 ,,,,,RJ,/,MO,-,RJ,/,MO,Y,Y,Y,Y,Y,Y,Y
+305,    , 7140A ,7140B,A18,G11  ,CE24 ,AP42 ,,,,,RJ,/,MO,-,RJ,/,MO,Y,Y,Y,Y,Y,Y,Y
+306,    , 7140C ,7140B,B26,G11  ,AE30 ,AP42 ,,,,,RJ,/,MO,-,RJ,/,MO,Y,Y,Y,Y,Y,Y,Y
+307,    , 7340A ,7340A,E7,G11  ,BI63 ,AP33 ,,,,,NE,/,AO,-,NE,/,AO,Y,Y,Y,Y,Y,Y,Y
+308,    , 7530A ,7530A,J25,H20  ,AL39 ,AN03 ,,,,,VC,/,BL,-,VC,/,BL,Y,Y,Y,Y,Y,Y,Y
+309,    , 7544A ,7544A,D27,A5   ,BN22 ,BI40 ,,,,,BL,/,NE,-,BL,/,NE,Y,Y,Y,Y,Y,Y,Y
+310,    , 7557A ,7557B,K19,D30  ,CF14 ,BN45 ,,,,,BL,/,AM,-,BL,/,AM,Y,Y,Y,Y,Y,Y,Y
+311,    , 7557B ,7557A,D30,K19  ,BN45 ,CF14 ,,,,,BL,/,AM,-,BL,/,AM,Y,Y,Y,Y,Y,Y,Y
+312,    , 7557C ,7557B,A18,D30  ,CE14 ,BN45 ,,,,,BL,/,AM,-,BL,/,AM,Y,Y,Y,Y,Y,Y,Y
+313,    , 7573A ,7573A,D30,C25  ,BN33 ,AG41 ,,,,,AO,/,CF,-,AO,/,CF,Y,Y,Y,Y,Y,Y,Y
+314,    , 7574A ,7574A,D30,C25  ,BN34 ,AG40 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,Y,Y,Y,Y,Y
+315,    , 7940A ,7940A,D3,F9   ,BE44 ,BG36 ,,,,,RJ,/,MO,-,RJ,/,MO,Y,Y,Y,Y,Y,Y,Y
+316,    , 7973A ,7973A,K2,F7   ,BP52 ,BJ50 ,,,,,BL,/,RJ,-,BL,/,RJ,Y,Y,Y,Y,Y,Y,Y
+317,    , 9000B ,9000B,H20,H20  ,AN02 ,AN12 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+318,    , 9001A ,9001A,B19,B19  ,AK02 ,AK54 ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+319,    , 9001B ,9001B,B19,B21  ,AK12 ,     ,,,,,NE,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+320,    , 7210A ,7210A,D25,A11  ,AC46 ,BA28 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,-,Y,Y,-,Y
+321,    , 7211A ,7211A,D25,A11  ,AC45 ,BA27 ,,,,,GR,/,BL,-,GR,/,BL,Y,Y,-,Y,Y,-,Y
+322,    , 7214B ,7214B,D25,B13  ,AC49 ,CB09 ,,,,,CF,/,NE,-,CF,/,NE,Y,Y,Y,Y,Y,Y,Y
+323,    , 7215B ,7215B,D25,B13  ,AC50 ,CB10 ,,,,,GR,/,NE,-,GR,/,NE,Y,Y,Y,Y,Y,Y,Y
+324,    , 4978X ,4978X,D30,D25  ,BN42 ,AC33 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+325,    , 4979X ,4979X,D30,D25  ,BN43 ,AC34 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,Y,Y,Y,Y,Y
+326,    ,   46C ,46C,A18,D12  ,CE22 ,BJ02 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+327,    ,  115C ,115C,A18,D12  ,CE21 ,BJ10 ,,,,,AO,/,NE,-,AO,/,NE,Y,Y,Y,Y,Y,Y,Y
+328,    , 4978Y ,4978Y,D28,D25  ,AI14 ,AC18 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+329,    , 4979Y ,4979Y,D28,D25  ,AI13 ,AC19 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,Y,Y,Y,Y,Y
+330,    ,  116C ,116C,K19,D12  ,CF21 ,BJ11 ,,,,,VC,/,NE,-,VC,/,NE,Y,Y,Y,Y,Y,Y,Y
+331,    ,  199C ,199C,K19,D12  ,CF22 ,BJ03 ,,,,,VC,/,  ,-,VC,/,  ,Y,Y,Y,Y,Y,Y,Y
+332,    ,  315C ,315C,C5A,D12  ,BC01 ,BJ16 ,,,,,GR,/,NE,-,GR,/,NE,Y,Y,Y,Y,Y,Y,Y
+333,    , 1795C ,1795C,C5A,D12  ,BC02 ,BJ08 ,,,,,VC,/,MO,-,VC,/,MO,Y,Y,Y,Y,Y,Y,Y
+334,    ,  346A ,346A,H11,C12  ,BB02 ,BC28 ,,,,,AO,/,GR,-,AO,/,GR,Y,Y,Y,Y,Y,Y,Y
+335,    , 1794A ,1794A,H11,C12  ,BB01 ,BC27 ,,,,,VC,/,NE,-,VC,/,NE,Y,Y,Y,Y,Y,Y,Y
+336,    ,  354A ,354A,F19,H25  ,AJ23 ,AH06 ,,,,,NA,/,AM,-,NA,/,AM,Y,Y,Y,Y,Y,Y,Y
+337,    , 5045A ,5045A,H25,F19  ,AH05 ,AJ24 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+338,    , 1409A ,1409A,C25,F19  ,AG31 ,AJ30 ,,,,,NA,/,VC,-,NA,/,VC,Y,Y,Y,Y,Y,Y,Y
+339,    , 5600A ,5600A,C25,F19  ,AG32 ,AJ29 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+340,    , 1853B ,1853B,B26,D12  ,AE35 ,BJ06 ,,,,,BL,/,AM,-,BL,/,AM,Y,Y,Y,Y,Y,Y,Y
+341,    , 1953B ,1953B,B26,D12  ,AE34 ,BJ14 ,,,,,CF,/,NE,-,CF,/,NE,Y,Y,Y,Y,Y,Y,Y
+342,    , 1855B ,1855B,B3,C13A ,CB26 ,BJ23 ,,,,,AM,/,VC,-,AM,/,VC,Y,Y,Y,Y,Y,Y,Y
+343,    , 1955B ,1955B,B3,C13A ,CB25 ,BJ31 ,,,,,GR,/,AO,-,GR,/,AO,Y,Y,Y,Y,Y,Y,Y
+344,    , 1857B ,1857B,J27,D12  ,AB35 ,BJ07 ,,,,,AO,/,MO,-,AO,/,MO,Y,Y,Y,Y,Y,Y,Y
+345,    , 1957B ,1957B,J27,D12  ,AB34 ,BJ15 ,,,,,AO,/,CF,-,AO,/,CF,Y,Y,Y,Y,Y,Y,Y
+346,    , 1859B ,1859B,H12,C13A ,CB32 ,BJ24 ,,,,,AM,/,CF,-,AM,/,CF,Y,Y,Y,Y,Y,Y,Y
+347,    , 1959B ,1959B,H12,C13A ,CB31 ,BJ32 ,,,,,BL,/,NE,-,BL,/,NE,Y,Y,Y,Y,Y,Y,Y
+348,    , 2132A ,2132A,J27,F19  ,AB15 ,AJ48 ,,,,,NA,/,VC,-,NA,/,VC,Y,Y,Y,Y,Y,Y,Y
+349,    , 6628A ,6628A,J27,F19  ,AB14 ,AJ47 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+350,    , 2134A ,2134A,B26,F19  ,AE15 ,AJ26 ,,,,,CF,/,NA,-,CF,/,NA,Y,Y,Y,Y,Y,Y,Y
+351,    , 6629A ,6629A,B26,F19  ,AE14 ,AJ25 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+352,    , 3554A ,3554A,D29,A1A  ,AA10 ,BR56 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+353,    , 3555A ,3555A,D29,A1A  ,AA11 ,BR57 ,,,,,GR,/,NE,-,GR,/,NE,Y,Y,Y,Y,Y,Y,Y
+354,    , 4301A ,4301A,D30,H4   ,BN46 ,BE15 ,,,,,MO,/,  ,-,MO,/,  ,Y,Y,Y,Y,Y,Y,Y
+355,    , 4302A ,4302A,D30,H4   ,BN53 ,BE16 ,,,,,MO,/,GR,-,MO,/,GR,Y,Y,Y,Y,Y,Y,Y
+356,    , 4303A ,4303A,D29,F3   ,AA09 ,BF62 ,,,,,VC,/,AM,-,VC,/,AM,Y,Y,Y,Y,Y,Y,Y
+357,    , 4304A ,4304A,D29,F3   ,AA08 ,BF63 ,,,,,VC,/,NE,-,VC,/,NE,Y,Y,Y,Y,Y,Y,Y
+358,    , 3568A ,3568A,C30,H2   ,BM07 ,BH46 ,,,,,CF,/,VC,-,CF,/,VC,Y,Y,Y,Y,Y,Y,Y
+359,    , 3569A ,3569A,C30,H2   ,BM08 ,BH47 ,,,,,VC,/,GR,-,VC,/,GR,Y,Y,Y,Y,Y,Y,Y
+360,    , 6620A ,6620A,14,F19  ,     ,AJ27 ,,,,,NA,/,AO,-,NA,/,AO,Y,Y,Y,Y,Y,Y,Y
+361,    , 6621A ,6621A,14,F19  ,     ,AJ28 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+362,    , 6624A ,6624A,71,F19  ,     ,AJ49 ,,,,,NA,/,MO,-,NA,/,MO,Y,Y,Y,Y,Y,Y,Y
+363,    , 6625A ,6625A,71,F19  ,     ,AJ50 ,,,,,NE,/,NA,-,NE,/,NA,Y,Y,Y,Y,Y,Y,Y
+364,    , 1860C ,1860C,D25,D12  ,AC04 ,BJ05 ,,,,,AM,/,BL,-,AM,/,BL,Y,Y,Y,Y,Y,Y,Y
+365,    , 1960C ,1960C,D25,D12  ,AC03 ,BJ13 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,Y,Y,Y,Y,Y
+366,    , 4986C ,4986C,H19,F6   ,BD52 ,BD07 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+367,    , 4987C ,4987C,H19,F6   ,BD54 ,BD05 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+368,    , 3005A ,3005A,H15,C13A ,BK04 ,BJ19 ,,,,,VC,/,CF,-,VC,/,CF,Y,Y,Y,Y,Y,Y,Y
+369,    , 3008A ,3008A,H15,C13A ,BK03 ,BJ27 ,,,,,VC,/,NE,-,VC,/,NE,Y,Y,Y,Y,Y,Y,Y
+370,    , 3006A ,3006A,H15,C13A ,BK15 ,BJ20 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,Y,Y,Y,Y,Y
+371,    , 3009A ,3009A,H15,C13A ,BK16 ,BJ28 ,,,,,AO,/,NE,-,AO,/,NE,Y,Y,Y,Y,Y,Y,Y
+372,    , 3007A ,3007A,H15,C13A ,BK17 ,BJ21 ,,,,,GR,/,AO,-,GR,/,AO,Y,Y,Y,Y,Y,Y,Y
+373,    , 3010A ,3010A,H15,C13A ,BK18 ,BJ29 ,,,,,GR,/,CF,-,GR,/,CF,Y,Y,Y,Y,Y,Y,Y
+374,    , 4054E ,4054E,J25,G4   ,AL44 ,BP06 ,,,,,AO,/,GR,-,AO,/,GR,Y,Y,Y,Y,Y,Y,Y
+375,    , 4055E ,4055E,J25,G4   ,AL45 ,BP05 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+376,    ,  882A ,882A,H25,K1   ,AH40 ,BG10 ,,,,,MO,/,  ,-,MO,/,  ,Y,Y,Y,Y,Y,Y,Y
+377,    , 7128A ,7128A,H25,K1   ,AH41 ,BG12 ,,,,,GR,/,AM,-,GR,/,AM,Y,Y,Y,Y,Y,Y,Y
+378,    ,  884A ,884A,H25,K1   ,AH42 ,BG11 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+379,    , 7127A ,7127A,H25,K1   ,AH43 ,BG13 ,,,,,GR,/,NE,-,GR,/,NE,Y,Y,Y,Y,Y,Y,Y
+380,    , 4054C ,4054C,J25,H25  ,AL32 ,AH48 ,,,,,AO,/,GR,-,AO,/,GR,Y,Y,Y,Y,Y,Y,Y
+381,    , 4055C ,4055C,J25,H25  ,AL33 ,AH49 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+382,    , 4100A ,4100A,G27,H20  ,AB43 ,AN47 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+383,    , 4101A ,4101A,G27,H20  ,AB44 ,AN46 ,,,,,AO,/,MO,-,AO,/,MO,Y,Y,Y,Y,Y,Y,Y
+384,    , 4976C ,4976C,J25,H25  ,AL35 ,AH50 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+385,    , 4977C ,4977C,J25,H25  ,AL36 ,AH51 ,,,,,AO,/,NE,-,AO,/,NE,Y,Y,Y,Y,Y,Y,Y
+386,    , 4978A ,4978A,G27,H25  ,AB53 ,AH46 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+387,    , 4979A ,4979A,G27,H25  ,AB54 ,AH47 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,Y,Y,Y,Y,Y
+388,    , 4984C ,4984C,B13,A11  ,CB17 ,BA15 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,-,Y,Y,-,Y
+389,    , 4985C ,4985C,B13,A11  ,CB18 ,BA16 ,,,,,AO,/,BL,-,AO,/,BL,Y,Y,-,Y,Y,-,Y
+390,    , 4986L ,4986L,G27,H25  ,AB52 ,AH54 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+391,    , 4987L ,4987L,G27,H25  ,AB51 ,AH55 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+392,    ,  117E ,117E,B26,D12  ,AE32 ,BJ09 ,,,,,AM,/,NE,-,AM,/,NE,Y,Y,Y,Y,Y,Y,Y
+393,    ,  200E ,200E,B26,D12  ,AE33 ,BJ01 ,,,,,AM,/,  ,-,AM,/,  ,Y,Y,Y,Y,Y,Y,Y
+394,    ,  118F ,118F,J27,D12  ,AB32 ,BJ12 ,,,,,CF,/,AO,-,CF,/,AO,Y,Y,Y,Y,Y,Y,Y
+395,    ,  201F ,201F,J27,D12  ,AB33 ,BJ04 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+396,    , 4100E ,4100E,H20,B19  ,AN26 ,AK42 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+397,    , 4101E ,4101E,H20,B19  ,AN25 ,AK41 ,,,,,AO,/,MO,-,AO,/,MO,Y,Y,Y,Y,Y,Y,Y
+398,    , 4984J ,4984J,G27,A11  ,AB55 ,BA08 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,-,Y,Y,-,Y
+399,    , 4985J ,4985J,G27,A11  ,AB56 ,BA09 ,,,,,AO,/,BL,-,AO,/,BL,Y,Y,-,Y,Y,-,Y
+400,    , 4986P ,4986P,D16,A10  ,BL47 ,BC16 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+401,    , 4987P ,4987P,D16,A10  ,BL49 ,BC17 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+402,    , 4986A ,4986A,J25,H19  ,AL49 ,BD51 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+403,    , 4987A ,4987A,J25,H19  ,AL50 ,BD53 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+404,    , 4100B ,4100B,B19,H2   ,AK51 ,BH37 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+405,    , 4101B ,4101B,B19,H2   ,AK50 ,BH38 ,,,,,AO,/,MO,-,AO,/,MO,Y,Y,Y,Y,Y,Y,Y
+406,    ,  654A ,654A,H15,A11  ,BK06 ,BA20 ,,,,,NE,/,CF,-,NE,/,CF,Y,Y,-,Y,Y,-,Y
+407,    ,  655A ,655A,H15,A11  ,BK05 ,BA21 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,-,Y,Y,-,Y
+408,    , 4986E ,4986E,B19,D16  ,AK52 ,BL46 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+409,    , 4987E ,4987E,B19,D16  ,AK53 ,BL48 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+410,    , 4986B ,4986B,B19,F6   ,AK07 ,BD08 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+411,    , 4987B ,4987B,B19,F6   ,AK08 ,BD06 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+412,    , 4978P ,4978P,D28,B10  ,AI16 ,BA29 ,,,,,BL,/,  ,-,BL,/,  ,Y,-,Y,Y,-,Y,-
+413,    , 4979P ,4979P,D28,B10  ,AI15 ,BA30 ,,,,,AO,/,AM,-,AO,/,AM,Y,-,Y,Y,-,Y,-
+414,    , 4986M ,4986M,A12,A12  ,BF42 ,BF45 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+415,    , 4987M ,4987M,A12,A12  ,BF44 ,BF46 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+416,    , 7974A ,7974A,K2,F7   ,BP49 ,BJ49 ,,,,,NE,/,MO,-,NE,/,MO,Y,Y,Y,Y,Y,Y,Y
+417,    , 7975A ,7975A,K2,F7   ,BP50 ,BJ42 ,,,,,VC,/,CF,-,VC,/,CF,Y,Y,Y,Y,Y,Y,Y
+418,    , 7976A ,7976A,K2,F7   ,BP51 ,BJ41 ,,,,,GR,/,  ,-,GR,/,  ,Y,Y,Y,Y,Y,Y,Y
+419,    , 1852A ,1852A,D25,C13A ,AC02 ,BJ25 ,,,,,CF,/,VC,-,CF,/,VC,Y,Y,Y,Y,Y,Y,Y
+420,    , 1952A ,1952A,D25,C13A ,AC01 ,BJ33 ,,,,,MO,/,CF,-,MO,/,CF,Y,Y,Y,Y,Y,Y,Y
+421,    , 1856A ,1856A,D25,C13A ,AC05 ,BJ26 ,,,,,AM,/,AO,-,AM,/,AO,Y,Y,Y,Y,Y,Y,Y
+422,    , 1956A ,1956A,D25,C13A ,AC06 ,BJ34 ,,,,,AM,/,GR,-,AM,/,GR,Y,Y,Y,Y,Y,Y,Y
+423,    , 4986R ,4986R,A10,A12  ,BC10 ,BF41 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+424,    , 4987R ,4987R,A10,A12  ,BC11 ,BF43 ,,,,,AO,/,  ,-,AO,/,  ,Y,Y,Y,Y,Y,Y,Y
+425,    , 4978S ,4978S,F7,F7   ,BJ37 ,BJ38 ,,,,,BL,/,  ,-,BL,/,  ,Y,Y,Y,Y,Y,Y,Y
+426,    , 4979S ,4979S,F7,F7   ,BJ46 ,BJ45 ,,,,,AO,/,AM,-,AO,/,AM,Y,Y,Y,Y,Y,Y,Y
+427,    , 7977A ,7977A,K2,F7   ,BP54 ,BJ48 ,,,,,NE,/,AM,-,NE,/,AM,Y,Y,Y,Y,Y,Y,Y
+428,    , 7978A ,7978A,K2,F7   ,BP53 ,BJ40 ,,,,,AO,/,BL,-,AO,/,BL,Y,Y,Y,Y,Y,Y,Y
+429,    , 4978F ,4978F,B10,F7   ,BA36 ,BJ39 ,,,,,BL,/,  ,-,BL,/,  ,Y,-,Y,Y,-,Y,-
+430,    , 4979F ,4979F,B10,F7   ,BA37 ,BJ47 ,,,,,AO,/,AM,-,AO,/,AM,Y,-,Y,Y,-,Y,-
+431,    , 1792A ,1792A,D25,A11  ,AC25 ,BA12 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,-,Y,Y,-,Y
+432,    , 5149A ,5149A,D25,A11  ,AC24 ,BA14 ,,,,,GR,/,AM,-,GR,/,AM,Y,Y,-,Y,Y,-,Y
+433,    , 5152A ,5152A,D25,A11  ,AC23 ,BA13 ,,,,,NE,/,GR,-,NE,/,GR,Y,Y,-,Y,Y,-,Y
+434,    , 7970B ,7970A,K1,F7   ,BG02 ,BJ44 ,,,,,NE,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+435,    , 7970A ,7970B,F7,K1   ,BJ44 ,BG02 ,,,,,  ,/,  ,-,NE,/,  ,Y,Y,Y,Y,Y,Y,Y
+436,    , 7968A ,7968A,E7,K1   ,BI61 ,BG01 ,,,,,GR,/,CF,-,GR,/,CF,Y,Y,Y,Y,Y,Y,Y
+437,    , 7969A ,7969A,E7,K1   ,BI64 ,BG09 ,,,,,AM,/,BL,-,AM,/,BL,Y,Y,Y,Y,Y,Y,Y
+438,    , 4978C ,4978C,D28,F7   ,AI16 ,BJ39 ,,,,,BL,/,  ,-,BL,/,  ,-,Y,-,-,Y,-,Y
+439,    , 4979C ,4979C,D28,F7   ,AI15 ,BJ47 ,,,,,AO,/,AM,-,AO,/,AM,-,Y,-,-,Y,-,Y
+440,    , 4984B ,4984B,G27,B13  ,AB55 ,CB17 ,,,,,AO,/,AM,-,AO,/,AM,-,-,Y,-,-,Y,-
+441,    , 4985B ,4985B,G27,B13  ,AB56 ,CB18 ,,,,,AO,/,BL,-,AO,/,BL,-,-,Y,-,-,Y,-
+442,    ,  654B ,654B,J25,H15  ,AL27 ,BK06 ,,,,,NE,/,CF,-,NE,/,CF,-,-,Y,-,-,Y,-
+443,    ,  655B ,655B,J25,H15  ,AL26 ,BK05 ,,,,,AO,/,  ,-,AO,/,  ,-,-,Y,-,-,Y,-
+444,    , 1092A ,1092A,D29,K19  ,AA02 ,CF17 ,,,,,VC,/,GR,-,VC,/,GR,-,-,-,-,-,Y,Y
+445,    , 1095A ,1095A,C29,A18  ,AD03 ,CE17 ,,,,,CF,/,AM,-,CF,/,AM,-,-,-,-,-,Y,Y
+446,    , 4648A ,4648A,C29,K19  ,AD11 ,CF02 ,,,,,VC,/,AO,-,VC,/,AO,-,-,-,-,-,Y,Y
+447,    , 4649A ,4649A,C29,A18  ,AD26 ,CE02 ,,,,,BL,/,GR,-,BL,/,GR,-,-,-,-,-,Y,Y
+448,    ,  340A ,340A,D25,A4   ,AC08 ,BJ62 ,,,,,RJ,/,MO,-,RJ,/,MO,-,-,-,-,-,-,Y
+449,    , 1651C ,1651F,A12,A4   ,BF31 ,BJ60 ,,,,,NE,/,BL,-,NE,/,BL,-,-,-,-,-,-,Y
+450,    ,   ANT ,ANT,J27,J27  ,AD43 ,AD44 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+451,    ,  CAND ,CAND,J27,J27  ,AD57 ,AD58 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+452,    ,CLAMP1 ,CLAMP1,J27,J27  ,AD55 ,AD56 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+453,    ,CLAMP2 ,CLAMP2,J27,J27  ,AD53 ,AD54 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+454,    ,   CON ,CON,J27,J27  ,AD59 ,AD60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+455,    ,  PLR1 ,PLR1,J27,J27  ,AD45 ,AD46 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+456,    ,  PLR2 ,PLR2,J27,J27  ,AD47 ,AD48 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+457,    ,  PLR3 ,PLR3,J27,J27  ,AD51 ,AD52 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+458,    ,  PLR4 ,PLR4,J27,J27  ,AD49 ,AD50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+459,    ,   ANT ,ANT,B26,B26  ,AE43 ,AE44 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+460,    ,  CAND ,CAND,B26,B26  ,AE57 ,AE58 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+461,    ,CLAMP1 ,CLAMP1,B26,B26  ,AE55 ,AE56 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+462,    ,CLAMP2 ,CLAMP2,B26,B26  ,AE53 ,AE54 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+463,    ,   CON ,CON,B26,B26  ,AE59 ,AE60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+464,    ,  PLR1 ,PLR1,B26,B26  ,AE45 ,AE46 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+465,    ,  PLR2 ,PLR2,B26,B26  ,AE47 ,AE48 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+466,    ,  PLR3 ,PLR3,B26,B26  ,AE51 ,AE52 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+467,    ,  PLR4 ,PLR4,B26,B26  ,AE49 ,AE50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+468,    ,CAMLEV ,CAMLEV,D25,D25  ,AA33 ,AA34 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+469,    , CAND1 ,CAND1,D25,D25  ,AA43 ,AA44 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+470,    , CAND2 ,CAND2,D25,D25  ,AA41 ,AA42 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+471,    , CLIP1 ,CLIP1,D25,D25  ,AA35 ,AA36 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+472,    , CLIP2 ,CLIP2,D25,D25  ,AA39 ,AA40 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+473,    ,   CPA ,CPA,D25,D25  ,AA37 ,AA38 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+474,    ,  PLR1 ,PLR1,D25,D25  ,AA31 ,AA32 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+475,    ,  PLR2 ,PLR2,D25,D25  ,AA29 ,AA30 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+476,    ,CAMLEV ,CAMLEV,G23,G23  ,AF49 ,AF50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+477,    , CAND1 ,CAND1,G23,G23  ,AF45 ,AF46 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+478,    , CAND2 ,CAND2,G23,G23  ,AF43 ,AF44 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+479,    , CAND3 ,CAND3,G23,G23  ,AF41 ,AF42 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+480,    ,  CLIP ,CLIP,G23,G23  ,AF51 ,AF52 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+481,    ,   CPA ,CPA,G23,G23  ,AF47 ,AF48 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+482,    ,   MBP ,MBP,G23,G23  ,AF37 ,AF38 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+483,    ,  MBP1 ,MBP1,G23,G23  ,AF39 ,AF40 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+484,    ,CAMLEV ,CAMLEV,F19,F19  ,AL05 ,AL06 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+485,    ,  COV1 ,COV1,F19,F19  ,AL07 ,AL08 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+486,    ,  COV2 ,COV2,F19,F19  ,AL09 ,AL10 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+487,    ,  COV3 ,COV3,F19,F19  ,AJ58 ,AJ59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+488,    ,  COV4 ,COV4,F19,F19  ,AJ57 ,AL11 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+489,    ,   PLR ,PLR,F19,F19  ,AL01 ,AL02 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+490,    ,  PLR1 ,PLR1,F19,F19  ,AL03 ,AL04 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+491,    ,  PLR2 ,PLR2,F19,F19  ,AJ55 ,AJ56 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+492,    ,PVACIO ,PVACIO,F19,F19  ,AJ60 ,AJ61 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+493,    ,CAMLEV ,CAMLEV,G11,G11  ,AM27 ,AM28 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+494,    ,  CONN ,CONN,G11,G11  ,AM31 ,AM32 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+495,    ,  CORB ,CORB,G11,G11  ,AM29 ,AM30 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+496,    , DREN1 ,DREN1,G11,G11  ,AP32 ,AP57 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+497,    , DREN2 ,DREN2,G11,G11  ,AP41 ,AP58 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+498,    , DREN3 ,DREN3,G11,G11  ,AP43 ,AP59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+499,    ,   TPA ,TPA,G11,G11  ,AM33 ,AM34 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+500,    ,  TPA1 ,TPA1,G11,G11  ,AM35 ,AM36 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+501,    ,CAMLEV ,CAMLEV,J25,J25  ,BM45 ,BM46 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+502,    , CAND1 ,CAND1,J25,J25  ,BM53 ,BM54 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+503,    , CAND2 ,CAND2,J25,J25  ,BM51 ,BM52 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+504,    , CLIP1 ,CLIP1,J25,J25  ,BM49 ,BM50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+505,    , CLIP2 ,CLIP2,J25,J25  ,BM47 ,BM48 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+506,    ,   CPA ,CPA,J25,J25  ,BM43 ,BM44 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+507,    ,  PLR1 ,PLR1,J25,J25  ,BM41 ,BM42 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+508,    ,  PLR2 ,PLR2,J25,J25  ,BM39 ,BM40 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+509,    ,CAMLEV1,CAMLEV,1 H15,  H15,  BL0,3 BL0,,,,,1, ,  ,-,  , ,  , , , ,Y,Y,Y,Y
+510,    ,CAMLEV2,CAMLEV,2 H15,  H15,  BL0,5 BL0,,,,,1, ,  ,-,  , ,  , , , ,Y,Y,Y,Y
+511,    ,  CAND ,CAND,H15,H15  ,BK63 ,BK64 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+512,    ,  CLIP ,CLIP,H15,H15  ,BK59 ,BK60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+513,    ,  CPA1 ,CPA1,H15,H15  ,BK61 ,BK62 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+514,    ,  CPA2 ,CPA2,H15,H15  ,BL01 ,BL02 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+515,    ,   CAN ,CAN,B22,B22  ,AC57 ,AC58 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+516,    ,   CPA ,CPA,B22,B22  ,AC59 ,AC60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+517,    ,PVACIO ,PVACIO,B22,B22  ,AC61 ,AC62 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+518,    ,   CAN ,CAN,A12,A12  ,BF47 ,BF48 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+519,    ,   CPA ,CPA,A12,A12  ,BF49 ,BF50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+520,    ,  CAND ,CAND,C29,C29  ,AD33 ,AD34 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+521,    ,   CPA ,CPA,C29,C29  ,AD35 ,AD36 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+522,    ,SENSOR ,SENSOR,C29,C29  ,AE37 ,AE38 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+523,    ,  CAND ,CAND,G27,G27  ,AD41 ,AD42 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+524,    ,   CPA ,CPA,G27,G27  ,AD39 ,AD40 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+525,    ,  CAND ,CAND,B19,B19  ,AK62 ,AK63 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+526,    ,   CLP ,CLP,B19,B19  ,AK60 ,AK61 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+527,    ,  PLR1 ,PLR1,B19,B19  ,AK56 ,AK57 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+528,    ,  PLR2 ,PLR2,B19,B19  ,AK58 ,AK59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+529,    ,PVACIO ,PVACIO,B19,B19  ,AI48 ,AI49 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+530,    ,  CAND ,CAND,H20,H20  ,AN62 ,AN63 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+531,    ,  CLIP ,CLIP,H20,H20  ,AN60 ,AN61 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+532,    ,   MBS ,MBS,H20,H20  ,AN56 ,AN57 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+533,    ,  MBS1 ,MBS1,H20,H20  ,AN58 ,AN59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+534,    ,PVACIO ,PVACIO,H20,H20  ,AR62 ,AR63 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+535,    ,  CAND ,CAND,J15B,J15B ,BB10 ,BB11 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+536,    ,  CAND ,CAND,H7,H7   ,BC59 ,BC60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+537,    ,   CPA ,CPA,H7,H7   ,BC49 ,BC50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+538,    ,PVACIO ,PVACIO,H7,H7   ,BC61 ,BC62 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+539,    ,  CAND ,CAND,H11B,H11B ,BE03 ,BE04 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+540,    ,   CPA ,CPA,H11B,H11B ,BE05 ,BE06 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+541,    , VACIO ,VACIO,H11B,H11B ,BE07 ,BE08 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+542,    ,  CAND ,CAND,H4,H4   ,BE10 ,BE09 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+543,    ,   CPA ,CPA,H4,H4   ,BE11 ,BE12 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+544,    ,PVACIO ,PVACIO,H4,H4   ,BE13 ,BE14 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+545,    ,  CAND ,CAND,D2,D2   ,BE37 ,BE38 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+546,    ,   CON ,CON,D2,D2   ,BE39 ,BE40 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+547,    ,PVACIO ,PVACIO,D2,D2   ,BE41 ,BE42 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+548,    ,  CAND ,CAND,F3,F3   ,BF56 ,BF57 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+549,    ,   CPA ,CPA,F3,F3   ,BF58 ,BF59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+550,    ,PVACIO ,PVACIO,F3,F3   ,BF60 ,BF61 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+551,    ,  CAND ,CAND,A5,A5   ,BI43 ,BI44 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+552,    ,   CPA ,CPA,A5,A5   ,BI45 ,BI46 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+553,    ,PVACIO ,PVACIO,A5,A5   ,BI47 ,BI48 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+554,    ,  CAND ,CAND,B2,B2   ,BI49 ,BI50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+555,    ,   CPA ,CPA,B2,B2   ,BI51 ,BI52 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+556,    ,  CAND ,CAND,F7,F7   ,BJ54 ,BJ53 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+557,    ,   CPA ,CPA,F7,F7   ,BJ56 ,BJ55 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+558,    ,  CAND ,CAND,D14,D14  ,BL56 ,BL57 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+559,    ,   CPA ,CPA,D14,D14  ,BL58 ,BL59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+560,    ,  CAND ,CAND,C30,C30  ,BM57 ,BM58 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+561,    , COLOR ,COLOR,C30,C30  ,BM61 ,BM62 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+562,    ,   CPA ,CPA,C30,C30  ,BM59 ,BM60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+563,    ,  CAND ,CAND,D27,D27  ,BN28 ,BN29 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+564,    ,   CPA ,CPA,D27,D27  ,BN30 ,BN31 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+565,    ,SENSOR ,SENSOR,D27,D27  ,BM55 ,BM56 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+566,    ,  CAND ,CAND,D30,D30  ,BN62 ,BN63 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+567,    ,   CPA ,CPA,D30,D30  ,BN60 ,BN61 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+568,    ,SENSOR ,SENSOR,D30,D30  ,AE41 ,AE42 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+569,    ,  CAND ,CAND,K4,K4   ,BP34 ,BP35 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+570,    ,   CPA ,CPA,K4,K4   ,BP36 ,BP37 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+571,    ,   VAC ,VAC,K4,K4   ,BP38 ,BP39 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+572,    ,  CAND ,CAND,A1B,A1B  ,BR07 ,BR08 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+573,    ,   CPA ,CPA,A1B,A1B  ,BR09 ,BR10 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+574,    ,PVACIO ,PVACIO,A1B,A1B  ,BR11 ,BR12 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+575,    ,  CAND ,CAND,B1,B1   ,BR20 ,BR21 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+576,    ,  CAND ,CAND,C4,C4   ,BR28 ,BR29 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+577,    ,   CPA ,CPA,C4,C4   ,BR26 ,BR27 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+578,    ,  CAND ,CAND,A1A,A1A  ,BR58 ,BR59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+579,    ,   CPA ,CPA,A1A,A1A  ,BR60 ,BR61 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+580,    ,PVACIO ,PVACIO,A1A,A1A  ,BR62 ,BR63 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+581,    ,  CAND ,CAND,B3,B3   ,CB29 ,CB30 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+582,    ,   CPA ,CPA,B3,B3   ,CB27 ,CB28 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+583,    ,  CAND ,CAND,H12,H12  ,CB35 ,CB36 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+584,    ,   CPA ,CPA,H12,H12  ,CB33 ,CB34 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+585,    , CAND1 ,CAND1,C25,C25  ,AA59 ,AA60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+586,    , CAND2 ,CAND2,C25,C25  ,AA57 ,AA58 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+587,    ,  CLIP ,CLIP,C25,C25  ,AA55 ,AA56 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+588,    ,   CPA ,CPA,C25,C25  ,AA53 ,AA54 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+589,    ,    PC ,PC,C25,C25  ,AG59 ,AG60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+590,    , CAND1 ,CAND1,H25,H25  ,AH61 ,AH62 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+591,    , CAND2 ,CAND2,H25,H25  ,AF57 ,AF58 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+592,    ,  CLIP ,CLIP,H25,H25  ,AF55 ,AF56 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+593,    ,   CPA ,CPA,H25,H25  ,AF53 ,AF54 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+594,    ,    PC ,PC,H25,H25  ,AH59 ,AH60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+595,    ,CLAMP1 ,CLAMP1,A18,A18  ,CE29 ,CE30 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+596,    ,CLAMP2 ,CLAMP2,A18,A18  ,CE31 ,CE32 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+597,    ,ESTBL1 ,ESTBL1,A18,A18  ,CE35 ,CE36 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+598,    ,ESTBL2 ,ESTBL2,A18,A18  ,CE37 ,CE38 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+599,    ,CLAMP1 ,CLAMP1,K19,K19  ,CF29 ,CF30 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+600,    ,CLAMP2 ,CLAMP2,K19,K19  ,CF31 ,CF32 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+601,    ,ESTBL1 ,ESTBL1,K19,K19  ,CF35 ,CF36 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+602,    ,ESTBL2 ,ESTBL2,K19,K19  ,CF37 ,CF38 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+603,    ,  CLIP ,CLIP,G4,G4   ,BP23 ,BP24 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+604,    , COVER ,COVER,G4,G4   ,BP21 ,BP22 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+605,    ,   CPA ,CPA,G4,G4   ,BP25 ,BP26 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+606,    ,   PLR ,PLR,G4,G4   ,BP18 ,BP17 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+607,    ,   VAC ,VAC,G4,G4   ,BP27 ,BP28 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+608,    , CLIP1 ,CLIP1,G8,G8   ,BB38 ,BB39 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+609,    , CLIP2 ,CLIP2,G8,G8   ,BB36 ,BB37 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+610,    ,  CORB ,CORB,F9,F9   ,BG61 ,BG62 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+611,    ,   COV ,COV,D3,D3   ,BE49 ,BE50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+612,    ,   CPA ,CPA,D3,D3   ,BE47 ,BE48 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+613,    ,   PLR ,PLR,D3,D3   ,BE45 ,BE46 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+614,    ,PVACIO ,PVACIO,D3,D3   ,BE51 ,BE52 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+615,    ,   COV ,COV,C2,C2   ,BE57 ,BE58 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+616,    ,   PLR ,PLR,C2,C2   ,BE59 ,BE60 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+617,    ,  COV1 ,COV1,J15A,J15A ,BP62 ,BP63 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+618,    ,   CPA ,CPA,J15A,J15A ,BP60 ,BP61 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+619,    ,   CPA ,CPA,B23,B23  ,AA49 ,AA50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+620,    ,   PLR ,PLR,B23,B23  ,AA47 ,AA48 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+621,    ,PVACIO ,PVACIO,B23,B23  ,AA51 ,AA52 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+622,    ,   CPA ,CPA,D28,D28  ,AI37 ,AI36 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+623,    ,   CPA ,CPA,C3,C3   ,AP05 ,AP06 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+624,    ,   PLR ,PLR,C3,C3   ,AP03 ,AP04 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+625,    , VACIO ,VACIO,C3,C3   ,AP07 ,AP08 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+626,    ,   CPA ,CPA,G22,G22  ,AR56 ,AR57 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+627,    ,   PLR ,PLR,G22,G22  ,AR54 ,AR55 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+628,    ,PVACIO ,PVACIO,G22,G22  ,AR58 ,AR59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+629,    ,   CPA ,CPA,B10,B10  ,BA43 ,BA44 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+630,    ,   CPA ,CPA,H11,H11  ,BB05 ,BB06 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+631,    ,   PLR ,PLR,H11,H11  ,BB03 ,BB04 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+632,    ,PVACIO ,PVACIO,H11,H11  ,BB07 ,BB08 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+633,    ,   CPA ,CPA,E3,E3   ,BB17 ,BB16 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+634,    ,   PLR ,PLR,E3,E3   ,BB14 ,BB15 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+635,    , VACIO ,VACIO,E3,E3   ,BB18 ,BB19 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+636,    ,   CPA ,CPA,H19,H19  ,BB20 ,BB21 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+637,    ,   PLR ,PLR,H19,H19  ,BB22 ,BB23 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+638,    ,   CPA ,CPA,G5,G5   ,BB45 ,BB44 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+639,    ,   PLR ,PLR,G5,G5   ,BB42 ,BB43 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+640,    , VACIO ,VACIO,G5,G5   ,BB46 ,BB47 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+641,    ,   CPA ,CPA,G6,G6   ,BB52 ,BB53 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+642,    ,   PLR ,PLR,G6,G6   ,BB50 ,BB51 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+643,    , VACIO ,VACIO,G6,G6   ,BB54 ,BB55 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+644,    ,   CPA ,CPA,K2,K2   ,BB60 ,BB61 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+645,    ,   PLR ,PLR,K2,K2   ,BB56 ,BB57 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+646,    ,  PLRP ,PLRP,K2,K2   ,BB58 ,BB59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+647,    ,PVACIO ,PVACIO,K2,K2   ,BB62 ,BB63 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+648,    ,   CPA ,CPA,C5A,C5A  ,BC05 ,BC06 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+649,    ,   PLR ,PLR,C5A,C5A  ,BC03 ,BC04 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+650,    ,PVACIO ,PVACIO,C5A,C5A  ,BC07 ,BC08 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+651,    ,   CPA ,CPA,C5A,C5A  ,BC05 ,BC06 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+652,    ,   PLR ,PLR,C5A,C5A  ,BC03 ,BC04 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+653,    ,PVACIO ,PVACIO,C5A,C5A  ,BC07 ,BC08 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+654,    ,   CPA ,CPA,A10,A10  ,BC21 ,BC22 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+655,    ,   CPA ,CPA,A9,A9   ,BC41 ,BC42 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+656,    ,   PLR ,PLR,A9,A9   ,BC39 ,BC40 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+657,    ,   CPA ,CPA,K1,K1   ,BG20 ,BG19 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+658,    ,   PLR ,PLR,K1,K1   ,BG18 ,BG17 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+659,    ,PVACIO ,PVACIO,K1,K1   ,BG21 ,BG22 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+660,    ,   CPA ,CPA,G2,G2   ,BH25 ,BH26 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+661,    ,   PLR ,PLR,G2,G2   ,BH21 ,BH22 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+662,    , TORRE ,TORRE,G2,G2   ,BH24 ,BH23 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+663,    , VACIO ,VACIO,G2,G2   ,BH27 ,BH28 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+664,    ,   CPA ,CPA,H2,H2   ,BH53 ,BH54 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+665,    ,   PLR ,PLR,H2,H2   ,BH49 ,BH50 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+666,    ,  PLR1 ,PLR1,H2,H2   ,BH51 ,BH52 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+667,    ,PVACIO ,PVACIO,H2,H2   ,BH56 ,BH55 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+668,    ,   CPA ,CPA,D12,D12  ,BJ17 ,BJ18 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+669,    ,   CPA ,CPA,C13A,C13A ,BJ35 ,BJ36 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+670,    ,   CPA ,CPA,D16,D16  ,BL52 ,BL53 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+671,    ,   PLR ,PLR,D16,D16  ,BL50 ,BL51 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+672,    ,   CPA ,CPA,B13,B13  ,CB23 ,CB24 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+673,    ,   PLR ,PLR,B13,B13  ,CB21 ,CB22 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+674,    ,   PLR ,PLR,A4,A4   ,BJ63 ,BJ64 ,,,,,  ,/,  ,-,  ,/,  ,-,-,-,-,-,-,Y
+675,    ,  TERM ,TERM,B28,B28  ,AA63 ,AA64 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+676,    ,  TERM ,TERM,G28,G28  ,AF61 ,AF62 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+677,    ,  TERM ,TERM,C11,C11  ,AM58 ,AM59 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+678,    ,  TERM ,TERM,C10,C10  ,AM61 ,AM62 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+679,    ,  TERM ,TERM,B11,B11  ,AP62 ,AP63 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+680,    ,  TERM ,TERM,B14,B14  ,BA63 ,BA64 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+681,    ,  TERM ,TERM,J6B,J6B  ,BD61 ,BD62 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+682,    ,  TERM ,TERM,K7,K7   ,BF21 ,BF22 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y
+683,    ,  TERM ,TERM,K8,K8   ,BF24 ,BF25 ,,,,,  ,/,  ,-,  ,/,  ,Y,Y,Y,Y,Y,Y,Y

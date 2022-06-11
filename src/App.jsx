@@ -22,11 +22,16 @@ function App() {
               }) */
             validacion = arreglo.some(columna => item[2] === columna[2] && item[3] === columna[3] && item[4] === columna[4]
                 && item[5] === columna[5] && item[6] === columna[6] && item[7] === columna[7] && item[8] === columna[8])
+            console.log(validacion)
             if (validacion) {
                 arreglo.map(columna => {
-                    for (let i = 19; i < 254; i++) {
-                        if (item[i] === "Y") {
-                            columna[i] = 'Y'
+                    if (item[2] === columna[2] && item[3] === columna[3] && item[4] === columna[4]
+                        && item[5] === columna[5] && item[6] === columna[6] && item[7] === columna[7] && item[8] === columna[8]) {
+
+                        for (let i = 19; i < 254; i++) {
+                            if (item[i] === "Y") {
+                                columna[i] = 'Y'
+                            }
                         }
                     }
                     return columna;
